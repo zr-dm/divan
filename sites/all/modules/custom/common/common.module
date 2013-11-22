@@ -1,0 +1,21 @@
+<?php
+
+
+function common_menu(){
+    $items['divan'] = array(
+      'page callback' => 'common_divan_callback',
+      'access callback' => TRUE,
+    );
+    return $items;
+}
+
+function common_divan_callback() {
+    return "gdfghrhtfg";
+}
+
+
+function common_node_view($node, $view_mode, $langcode) {
+   // dpm($node);
+    //$node->title = "5e4";
+
+}
